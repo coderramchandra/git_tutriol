@@ -1,0 +1,16 @@
+package edu.ramchandra.linkedlist;
+
+public class MainRunner1 {
+	public static void main(String[] args) {
+		SinglyLinkedList sl=new SinglyLinkedList();
+		sl.add(25);
+		sl.add(56);
+		sl.add(98);
+		sl.add(78);
+		sl.display();
+		int size=sl.length();
+		System.out.println();
+		System.out.println("========================");
+		System.out.println("Length: "+size);
+	}
+}
